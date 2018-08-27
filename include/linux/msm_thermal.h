@@ -282,11 +282,6 @@ static inline int msm_thermal_get_cluster_freq_plan(uint32_t cluster,
 {
 	return -ENOSYS;
 }
-static inline int msm_thermal_get_cluster_voltage_plan(uint32_t cluster,
-	uint32_t *table_ptr)
-{
-	return -ENOSYS;
-}
 static inline int sensor_mgr_init_threshold(struct threshold_info *thresh_inp,
 				int sensor_id, int32_t high_temp,
 				int32_t low_temp,
